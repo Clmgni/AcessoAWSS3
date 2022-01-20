@@ -38,8 +38,8 @@ def create_bucket(bucket_name):
 
 s3_client = boto3.client(
     's3',
-    aws_access_key_id='AKIAQRJVRKK5N5KSYF5D',
-    aws_secret_access_key='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'
+    aws_access_key_id='xxx',
+    aws_secret_access_key='sss'
 )
 
 #create_bucket('cjmm-primeirobucket2')
