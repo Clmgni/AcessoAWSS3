@@ -38,13 +38,13 @@ def create_bucket(bucket_name):
 
 s3_client = boto3.client(
     's3',
-    aws_access_key_id='xxx',
-    aws_secret_access_key='sss'
+    aws_access_key_id='AKIAQRJVRKK5A5D3XBZH',
+    aws_secret_access_key='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'
 )
 
-#create_bucket('cjmm-primeirobucket2')
+#create_bucket('cjmm-primeirobucket4')
 
-upload_object('teste.txt', 'cjmm-primeirobucket2')
+#upload_object('teste.txt', 'cjmm-primeirobucket4')
 
 response = s3_client.list_buckets()
 
